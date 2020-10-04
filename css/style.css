@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../img/pic-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+
+.container{
+    text-align: center;
+    margin-top: 5rem;
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+    background-color:rgba(219, 224, 228, 0.5);
+    box-shadow: .4rem .5rem 1rem 0 red;
+}
+
+.container h1{
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: royalblue;
+    padding-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.user{
+    height: 2.5rem;
+    width: 80%;
+    background: #bbc1c8;
+    margin-bottom: .5rem;
+    border: none;
+    color: #fff;
+    border-radius: .5rem;
+}
+
+::placeholder{
+    color: #fff;
+    padding-left: .5rem;
+}
+
+.user:hover{
+    background-color: rgb(46, 94, 139, .9);
+}
+
+
+
+.submit{
+    width: 40%;
+    padding: 1rem 2.5rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    background: silver;
+    border-radius: .5rem;
+    color: #fff;
+    font-weight: 900;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.submit:hover{
+    background: rgba(125, 209, 16, 0.884);
+}
+
+.form-section{
+    color:blue;
+    font-size: large;
+    margin-bottom: .5rem;
+}
+
+.log-in{
+    padding-bottom: 2rem;
+}
+
+.log-in a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: deeppink;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.log-in a:hover{
+    color: dodgerblue;
+}
